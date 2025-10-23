@@ -1,4 +1,4 @@
-let video;
+        let video;
         let detector;
         let detections = [];
         let gameStarted = false;
@@ -100,7 +100,6 @@ let video;
             } else {
                 document.getElementById('instructions').style.display = 'block';
             }
-        }
 function spawnFruit() {
             if (gameStarted) {
                 let fruit = {
